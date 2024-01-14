@@ -42,7 +42,7 @@ def main():
     
     # creating a button for Prediction
     
-    if st.button('Diabetes Test Result'):
+    if st.button('Stroke Test Result'):
         diagnosis = diabetes_prediction([avg_glucose_level, BMI, Age])
         
         
